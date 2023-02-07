@@ -1,13 +1,13 @@
-/* function mindGame (i){
+function mindGame (i){
       let name = i*3;
       let name1  = name + 10;
       let name2  = name1 / 2;
       let name3  = name2 - 5;
       return name3;
  }
-  console.log(mindGame(5)); */
-
- /*  function evenOdd(name){
+//   console.log(mindGame(5));
+ 
+  function evenOdd(name){
       let  number = name.length;
       if( number % 2 == 0  ){
             return 'This is even Number';
@@ -17,9 +17,9 @@
       }     
 }
 
- console.log(evenOdd("shail")); */
+ console.log(evenOdd("shail")); 
 
- /* function isLGSeven (number){
+ function isLGSeven (number){
       let subtraction =  number - 7;
       if( subtraction < 7 ){
           return subtraction;  
@@ -27,11 +27,11 @@
       return number * 2;
  }
 
- console.log(isLGSeven(6));
+ /* console.log(isLGSeven(6));
   console.log(isLGSeven(-15));
  console.log(isLGSeven(15)); */
 
-/*  function findingBadData(array){
+ function findingBadData(array){
       let negeValu = 0 ;
       for ( let i = 0; i < array.length ; i++  ){
            let arrayvallu = array[i]
@@ -42,7 +42,7 @@
       }
       return negeValu
  }
-  console.log(findingBadData( [ -4, -9, -5, 0, 52, 63, -33, -55 ])); */
+//   console.log(findingBadData( [ -4, -9, -5, 0, 52, 63, -33, -55 ]));
 
 
    function gemsToDiamond(f1gems, f2gems, f3gems){
@@ -59,4 +59,4 @@
      }
      return total ;
  }
- console.log(gemsToDiamond)
+//  console.log(gemsToDiamond())
