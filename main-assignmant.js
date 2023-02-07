@@ -7,6 +7,8 @@ function mindGame (i){
      return name3;
 }
 
+
+/* The job of this function is to take a string parameter and tell us whether the number in that parameter is even or odd. */
 function evenOdd(name){
      let  number = name.length;
      if( number % 2 == 0  ){
@@ -38,6 +40,23 @@ function findingBadData(array){
      }
      return negeValu
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function gemsToDiamond(friend1, friends2, friends3){

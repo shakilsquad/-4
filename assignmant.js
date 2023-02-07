@@ -129,3 +129,19 @@ function gemsToDiamond(friend1, friends2, friends3){
 console.log(gemsToDiamond(1, 1, 1));
 console.log(gemsToDiamond(20, 200, 50));
 console.log(gemsToDiamond(100, 5, 1));
+
+
+// function gemsToDiamond(f1gems, f2gems, f3gems){
+
+//     let f1number = f1gems * 21
+//     let f2number = f2gems * 32
+//     let f3number = f3gems * 43
+//     let total = f1number + f2number + f3number ;
+//     if ( typeof f1gems != 'number' || typeof f2gems != 'number' ||typeof f1gems != 'number' ) {
+//         return "Please return a valid number"
+//     }
+//     else if ( total >= 1000*2 ) {
+//         return total - 2000;
+//     }
+//     return total ;
+// }
